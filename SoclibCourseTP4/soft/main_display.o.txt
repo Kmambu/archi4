@@ -1,0 +1,232 @@
+
+main_display.o:     file format elf32-tradlittlemips
+
+
+Disassembly of section .text:
+
+00000000 <main>:
+   0:	27bdbfe0 	addiu	sp,sp,-16416
+   4:	afbf401c 	sw	ra,16412(sp)
+   8:	afbe4018 	sw	s8,16408(sp)
+   c:	03a0f025 	move	s8,sp
+  10:	afc00010 	sw	zero,16(s8)
+  14:	10000059 	b	17c <main+0x17c>
+  18:	00000000 	nop
+  1c:	8fc20010 	lw	v0,16(s8)
+  20:	24420001 	addiu	v0,v0,1
+  24:	00402825 	move	a1,v0
+  28:	3c020000 	lui	v0,0x0
+  2c:	24440000 	addiu	a0,v0,0
+  30:	0c000000 	jal	0 <main>
+  34:	00000000 	nop
+  38:	8fc20010 	lw	v0,16(s8)
+  3c:	00021140 	sll	v0,v0,0x5
+  40:	27c30018 	addiu	v1,s8,24
+  44:	24060020 	li	a2,32
+  48:	00602825 	move	a1,v1
+  4c:	00402025 	move	a0,v0
+  50:	0c000000 	jal	0 <main>
+  54:	00000000 	nop
+  58:	10400005 	beqz	v0,70 <main+0x70>
+  5c:	00000000 	nop
+  60:	3c020000 	lui	v0,0x0
+  64:	24440018 	addiu	a0,v0,24
+  68:	0c000000 	jal	0 <main>
+  6c:	00000000 	nop
+  70:	0c000000 	jal	0 <main>
+  74:	00000000 	nop
+  78:	10400005 	beqz	v0,90 <main+0x90>
+  7c:	00000000 	nop
+  80:	3c020000 	lui	v0,0x0
+  84:	24440030 	addiu	a0,v0,48
+  88:	0c000000 	jal	0 <main>
+  8c:	00000000 	nop
+  90:	8fc20010 	lw	v0,16(s8)
+  94:	24420001 	addiu	v0,v0,1
+  98:	00402825 	move	a1,v0
+  9c:	3c020000 	lui	v0,0x0
+  a0:	2444004c 	addiu	a0,v0,76
+  a4:	0c000000 	jal	0 <main>
+  a8:	00000000 	nop
+  ac:	8fc20010 	lw	v0,16(s8)
+  b0:	24420001 	addiu	v0,v0,1
+  b4:	00402825 	move	a1,v0
+  b8:	3c020000 	lui	v0,0x0
+  bc:	24440064 	addiu	a0,v0,100
+  c0:	0c000000 	jal	0 <main>
+  c4:	00000000 	nop
+  c8:	27c20018 	addiu	v0,s8,24
+  cc:	24064000 	li	a2,16384
+  d0:	00402825 	move	a1,v0
+  d4:	00002025 	move	a0,zero
+  d8:	0c000000 	jal	0 <main>
+  dc:	00000000 	nop
+  e0:	10400005 	beqz	v0,f8 <main+0xf8>
+  e4:	00000000 	nop
+  e8:	3c020000 	lui	v0,0x0
+  ec:	2444007c 	addiu	a0,v0,124
+  f0:	0c000000 	jal	0 <main>
+  f4:	00000000 	nop
+  f8:	0c000000 	jal	0 <main>
+  fc:	00000000 	nop
+ 100:	10400005 	beqz	v0,118 <main+0x118>
+ 104:	00000000 	nop
+ 108:	3c020000 	lui	v0,0x0
+ 10c:	24440094 	addiu	a0,v0,148
+ 110:	0c000000 	jal	0 <main>
+ 114:	00000000 	nop
+ 118:	8fc20010 	lw	v0,16(s8)
+ 11c:	24420001 	addiu	v0,v0,1
+ 120:	00402825 	move	a1,v0
+ 124:	3c020000 	lui	v0,0x0
+ 128:	244400b0 	addiu	a0,v0,176
+ 12c:	0c000000 	jal	0 <main>
+ 130:	00000000 	nop
+ 134:	8fc20010 	lw	v0,16(s8)
+ 138:	24420001 	addiu	v0,v0,1
+ 13c:	00402825 	move	a1,v0
+ 140:	3c020000 	lui	v0,0x0
+ 144:	244400c8 	addiu	a0,v0,200
+ 148:	0c000000 	jal	0 <main>
+ 14c:	00000000 	nop
+ 150:	3c020000 	lui	v0,0x0
+ 154:	244400e0 	addiu	a0,v0,224
+ 158:	0c000000 	jal	0 <main>
+ 15c:	00000000 	nop
+ 160:	27c20014 	addiu	v0,s8,20
+ 164:	00402025 	move	a0,v0
+ 168:	0c000000 	jal	0 <main>
+ 16c:	00000000 	nop
+ 170:	8fc20010 	lw	v0,16(s8)
+ 174:	24420001 	addiu	v0,v0,1
+ 178:	afc20010 	sw	v0,16(s8)
+ 17c:	8fc20010 	lw	v0,16(s8)
+ 180:	28420004 	slti	v0,v0,4
+ 184:	1440ffa5 	bnez	v0,1c <main+0x1c>
+ 188:	00000000 	nop
+ 18c:	0c000000 	jal	0 <main>
+ 190:	00000000 	nop
+ 194:	00000000 	nop
+ 198:	03c0e825 	move	sp,s8
+ 19c:	8fbf401c 	lw	ra,16412(sp)
+ 1a0:	8fbe4018 	lw	s8,16408(sp)
+ 1a4:	27bd4020 	addiu	sp,sp,16416
+ 1a8:	03e00008 	jr	ra
+ 1ac:	00000000 	nop
+
+Disassembly of section .reginfo:
+
+00000000 <.reginfo>:
+   0:	e000007c 	sc	zero,124(zero)
+	...
+
+Disassembly of section .MIPS.abiflags:
+
+00000000 <.MIPS.abiflags>:
+   0:	01200000 	0x1200000
+   4:	01000101 	0x1000101
+	...
+  10:	00000001 	movf	zero,zero,$fcc0
+  14:	00000000 	nop
+
+Disassembly of section .pdr:
+
+00000000 <.pdr>:
+   0:	00000000 	nop
+   4:	c0000000 	ll	zero,0(zero)
+   8:	fffffffc 	sdc3	$31,-4(ra)
+	...
+  14:	00004020 	add	t0,zero,zero
+  18:	0000001e 	0x1e
+  1c:	0000001f 	0x1f
+
+Disassembly of section .rodata:
+
+00000000 <.rodata>:
+   0:	64616f6c 	0x64616f6c
+   4:	20676e69 	addi	a3,v1,28265
+   8:	67616d69 	0x67616d69
+   c:	6f6e2065 	0x6f6e2065
+  10:	0a642520 	j	9909480 <main+0x9909480>
+  14:	00000000 	nop
+  18:	5f636f69 	0x5f636f69
+  1c:	64616572 	0x64616572
+  20:	65203a20 	0x65203a20
+  24:	726f7272 	0x726f7272
+  28:	0a212121 	j	8848484 <main+0x8848484>
+  2c:	00000000 	nop
+  30:	5f636f69 	0x5f636f69
+  34:	706d6f63 	0x706d6f63
+  38:	6574656c 	0x6574656c
+  3c:	203a2064 	addi	k0,at,8292
+  40:	6f727265 	0x6f727265
+  44:	21212172 	addi	at,t1,8562
+  48:	0000000a 	movz	zero,zero,zero
+  4c:	67616d69 	0x67616d69
+  50:	6f6e2065 	0x6f6e2065
+  54:	0a642520 	j	9909480 <main+0x9909480>
+  58:	616f6c20 	0x616f6c20
+  5c:	0a646564 	j	9919590 <main+0x9919590>
+  60:	00000000 	nop
+  64:	70736964 	0x70736964
+  68:	6979616c 	0x6979616c
+  6c:	6920676e 	0x6920676e
+  70:	6567616d 	0x6567616d
+  74:	206f6e20 	addi	t7,v1,28192
+  78:	000a6425 	0xa6425
+  7c:	775f6266 	jalx	d7d8998 <main+0xd7d8998>
+  80:	65746972 	0x65746972
+  84:	65203a20 	0x65203a20
+  88:	726f7272 	0x726f7272
+  8c:	0a212121 	j	8848484 <main+0x8848484>
+  90:	00000000 	nop
+  94:	635f6266 	0x635f6266
+  98:	6c706d6f 	0x6c706d6f
+  9c:	64657465 	0x64657465
+  a0:	65203a20 	0x65203a20
+  a4:	726f7272 	0x726f7272
+  a8:	0a212121 	j	8848484 <main+0x8848484>
+  ac:	00000000 	nop
+  b0:	67616d69 	0x67616d69
+  b4:	6f6e2065 	0x6f6e2065
+  b8:	20642520 	addi	a0,v1,9504
+  bc:	70736964 	0x70736964
+  c0:	6979616c 	0x6979616c
+  c4:	000a676e 	0xa676e
+  c8:	67616d69 	0x67616d69
+  cc:	6f6e2065 	0x6f6e2065
+  d0:	20642520 	addi	a0,v1,9504
+  d4:	656e6567 	0x656e6567
+  d8:	65746172 	0x65746172
+  dc:	00000a64 	0xa64
+  e0:	73657270 	0x73657270
+  e4:	6e612073 	0x6e612073
+  e8:	656b2079 	0x656b2079
+  ec:	6f742079 	0x6f742079
+  f0:	6e6f6320 	0x6e6f6320
+  f4:	756e6974 	jalx	5b9a5d0 <main+0x5b9a5d0>
+  f8:	00000a65 	0xa65
+  fc:	00000000 	nop
+
+Disassembly of section .ctors:
+
+00000000 <.ctors>:
+   0:	00000000 	nop
+
+Disassembly of section .comment:
+
+00000000 <.comment>:
+   0:	43434700 	c0	0x1434700
+   4:	4728203a 	c1	0x128203a
+   8:	2029554e 	addi	t1,at,21838
+   c:	2e322e38 	sltiu	s2,s1,11832
+  10:	Address 0x0000000000000010 is out of bounds.
+
+
+Disassembly of section .gnu.attributes:
+
+00000000 <.gnu.attributes>:
+   0:	00000f41 	0xf41
+   4:	756e6700 	jalx	5b99c00 <main+0x5b99c00>
+   8:	00070100 	sll	zero,a3,0x4
+   c:	01040000 	0x1040000

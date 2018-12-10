@@ -6,7 +6,8 @@
 # Makefiles
 !*Makefile*
 
-# Plaintexts and READMEs
+# Plaintexts and READMEs (except objdumps)
+*.o*
 !*.txt
 !*README*
 
