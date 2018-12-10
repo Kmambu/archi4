@@ -1,0 +1,22 @@
+# Remove everything except...
+*
+!*/
+!.gitignore
+
+# Makefiles
+!*Makefile*
+
+# Plaintexts and READMEs
+!*.txt
+!*README*
+
+# C/C++ sources
+!*.c
+!*.cpp
+!*.h
+
+# Linking files
+!*.ld
+
+# Soclib platform description
+!*.desc
